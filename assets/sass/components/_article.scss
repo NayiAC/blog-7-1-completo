@@ -1,0 +1,19 @@
+.article {
+  &__text {
+    font-size: 1.2rem;
+  }
+
+  &__description {
+    background-color: rgb(224, 224, 224);
+    border-radius: .5rem;
+    padding: 2.5rem;
+  }
+
+  &__img {
+    width: 50%;
+    height: 16rem;
+    display: block;
+    border-radius: .5rem;
+    margin: 3rem auto;
+  }
+}

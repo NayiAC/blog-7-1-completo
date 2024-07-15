@@ -1,0 +1,42 @@
+.btn {
+  border-radius: .5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+
+  &.btn-full {
+    width: 100%;
+  }
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+
+  //modificadores
+
+  &--login {
+    background-color: $greenAdl;
+    padding: .8rem;
+    margin: 1rem 0;
+    color: white;
+    
+  }
+
+  &--google {
+    margin-bottom: 1rem;
+    padding: .4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+    background-color: white;
+    color: $black;
+    border: 1px solid $lightGray
+  }
+
+  &--subscribe {
+    padding: .8rem 2rem;
+    background-color: #cccccc;
+  }
+}

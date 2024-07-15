@@ -1,0 +1,33 @@
+.input {
+  display: flex;
+  flex-direction: column;
+
+  &__label {
+    visibility: hidden;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: .9rem 1rem;
+    border-radius: .5rem;
+    border: 1px solid $lightGray;
+
+    &::placeholder {
+      color: $lightGray;
+      font-size: 1rem;
+    }
+  }
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+
+  input[type="checkbox"] {
+    height: 1.3rem;
+    width: 1.3rem;
+    border: 1px solid $lightGray;
+  }
+}

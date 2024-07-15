@@ -1,0 +1,19 @@
+.subtitle {
+
+  //modificadores
+
+  &--black {
+    @include subtitle ($black);
+  }
+  &--white {
+    @include subtitle (white);
+  }
+
+  &.my {
+    @include margin(3rem 0 2rem)
+  }
+
+  &.mb {
+    @include margin(0 0 1.5rem 0)
+  }
+}
